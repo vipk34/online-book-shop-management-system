@@ -16,7 +16,7 @@ export const useAuthStore = create<AuthState>((set) => ({
   isAuthenticated: false,
   balance: 0,
   login: async (email: string, password: string) => {
-    if (email === 'sudipbag035@gmail.com' && password === 'Sudip123') {
+    if (email === 'vk7480954294@gmail.com' && password === '123456') {
       set({
         user: {
           id: 'admin',
